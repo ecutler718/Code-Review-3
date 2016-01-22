@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Ping-Pong</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Lets play!</h1>
+    <h2>rules</h2>
+    <p>
+      Ping pong will count up to your number from 1 with the following exceptions:
+    </p>
+    <ol>
+      <li>Numbers divisible by 3 are replaced with "ping"</li>
+      <li>Numbers divisible by 5 are replaced with "pong"</li>
+      <li>Numbers divisible by 15 are replaced with "pingpong"
+  </li>
+    </ol>
+    <form id="questions">
+           <div class="panel panel-default">
+             <div class="countTo">
+                 <label for="countTo">enter a number to count up to</label>
+                 <input id="countTo" type="text">
+             </div>
+           </div>
+           <button type="submit" id="submit">Submit</button>
+      </form>
+
+
+      <div class="result">
+        <p>based on your input these are the numbers<span id="result"></span></p>
+      </div>
+  </div>
+
+</body>
+</html>
